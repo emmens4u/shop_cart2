@@ -20,6 +20,7 @@ export const ProductDetail = ({dispatch} :any) => {
 
     const handleClick = () =>{
         dispatch({type: "ADD_TO_CART", payload: product})
+        // console.log('added to cart', product)
     }
   return (
     
